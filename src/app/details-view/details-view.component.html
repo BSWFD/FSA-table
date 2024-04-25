@@ -1,0 +1,23 @@
+<div class="details__wrapper">
+  <mat-card class="card">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>Pan Pimposław</mat-card-title>
+      <mat-card-subtitle *ngIf="id$ | async as id"
+        >Dog ID: {{ id }}</mat-card-subtitle
+      >
+    </mat-card-header>
+    <img mat-card-image src="assets/images/pimpek.png" alt="Photo of Pimpek" />
+    <mat-card-content>
+      <p>
+        In the enchanting world of make-believe, the Pimpek is rumored to have
+        the extraordinary ability to communicate with woodland creatures.
+        Legends tell of Pimpek companions who could understand the secret
+        language of birds and lead their owners to hidden treasures deep within
+        the mountains. These fanciful tales have woven a tapestry of mystery and
+        wonder around this remarkable breed, making them a beloved part of
+        folklore.
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

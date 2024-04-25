@@ -1,0 +1,14 @@
+<div *ngIf="users$ | async as users; else loading">
+  <div class="table__wrapper">
+    <app-users-table
+      [users]="users"
+      (pageChange)="handlePageChange($event)"
+    ></app-users-table>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="loader">
+    <mat-spinner></mat-spinner>
+  </div>
+</ng-template>

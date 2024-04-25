@@ -1,0 +1,18 @@
+.details__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+
+  .card {
+    max-width: 350px;
+
+    .header-image {
+      background-image: url("/assets/images/pimpek-avatar.png");
+      background-size: cover;
+    }
+
+    .mat-mdc-card-content {
+      padding-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<mat-toolbar color="primary"
+  >My Skills App
+  <div class="links__container">
+    <a
+      *ngFor="let route of navigationLinks"
+      class="link__element"
+      mat-raised-button
+      [routerLink]="route.link"
+      >{{ route.name }}</a
+    >
+  </div>
+</mat-toolbar>

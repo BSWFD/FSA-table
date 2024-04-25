@@ -1,0 +1,7 @@
+.links__container {
+    margin-left: auto;
+
+    .link__element:not(:first-child) {
+        margin-left: 10px;
+    }
+}

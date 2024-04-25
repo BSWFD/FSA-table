@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <app-grid-card
+      *ngFor="let element of gridElementList"
+      class="col-12 col-sm-6 col-md-4"
+      [id]="element.id"
+      [name]="element.name"
+    >
+    </app-grid-card>
+  </div>
+</div>
